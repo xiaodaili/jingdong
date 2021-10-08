@@ -1,0 +1,1 @@
+"use strict";$(".main-img").hover(function(){$(".mask").css("display","block"),$(".bi-img").css("display","block"),$(this).mousemove(function(s){var i=s.pageX,a=s.pageY;console.log(i,a);var m=i-$(".mask").width()/2-$(".main-img img").left();$(".mask").css("left",m)})},function(){$(".mask").css("display","none"),$(".bi-img").css("display","none")});
